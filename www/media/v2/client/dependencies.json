@@ -1,0 +1,127 @@
+{
+	
+	boot: [
+		{
+			id: 'airtower',
+			title: 'Communication'
+		},
+		{
+			id: 'sentry',
+			title: 'Communication'
+		},
+		{
+			id: 'epfdepend4',
+			title: 'Communication'
+		},
+		{
+			id: 'epfService',
+			title: 'Communication'
+		}
+	],
+	
+	login: [
+		{
+			id: 'login',
+			title: 'Login Screen',
+		},
+		{
+			id: 'serverdata.v2',
+			title: 'Login Screen',
+		},
+		{
+			id: 'birdhouse',
+			title: 'Login Screen',
+		},
+		{
+			id: 'captcha2',
+			title: 'Login Screen',
+		},
+		{
+			id: 'cache_ctrl',
+			title: 'Communication'
+		},
+		{
+			id: 'buddyhtml5.v6',
+			title: 'Communication'
+		}
+	],
+	
+	join: [
+		{
+			id: 'engine',
+			title: 'Engine'
+		},
+		{
+			id: 'interface',
+			title: 'Interface'
+		},
+		{
+			id: 'gridview',
+			title: 'Gridview'
+		},
+		{
+			id: 'mail',
+			title: 'Mail'
+		},
+		{
+			id: 'book',
+			title: 'Mail'
+		},
+		{
+			id: 'TransformFixJSON',
+			title: 'Interface'
+		},
+		{
+			id: 'newplayerexp',
+			title: 'Interface'
+		},
+		{
+			id: 'config',
+			title: 'Interface'
+		},
+		{
+			id: 'rewritten',
+			title: 'Interface'
+		},
+		{
+			id: 'manager',
+			title: 'Interface'
+		},
+		{
+			id: 'april',
+			title: 'Interface'
+		},
+		{
+			id: 'easeMethod',
+			title: 'Interface'
+		},
+		{
+			id: 'party',
+			title: 'Interface'
+		},
+		{
+			id: 'stampbook',
+			title: 'StampBook'
+		},
+		{
+			id: 'stamps',
+			title: 'Stamps'
+		}
+	],
+	
+	create: [
+		{
+			id: 'create',
+			title: 'Create Penguin'
+		}
+	],
+	
+	merch: [
+		{
+			id: 'app',
+			folder: 'merch/',
+			title: 'Communication'
+		}
+	]
+	
+}

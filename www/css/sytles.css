@@ -1,0 +1,28 @@
+body {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-size: cover;
+    font-family: "calibri";
+    background: white;
+    height: 100%;
+}
+
+.centerHorz {
+    display: flex;
+    justify-content: center;
+}
+
+.centerVert {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#game {
+    border: none;
+    width: 100%;
+    height: 100%;
+}

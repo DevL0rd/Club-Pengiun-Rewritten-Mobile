@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- EN -->
+<startscreen>
+	
+	<backgrounds>
+		<!-- in constant rotation -->	
+        
+		<background>
+			<url>LoginExploreMore.swf</url>
+			<probability>0</probability>
+		</background>
+		<background>
+			<url>LoginCelebrateMore.swf</url>
+			<probability>0</probability>
+		</background>	
+        <background>
+			<url>LoginCreateMore.swf</url>
+			<probability>0</probability>
+		</background>	
+		<background>
+			<url>LoginPlayMore.swf</url>
+			<probability>0</probability>
+		</background>
+		
+		<background>
+			<url>CPRGame.swf</url>
+			<probability>25</probability>
+		</background>
+		<background>
+			<url>CPRMascot.swf</url>
+			<probability>25</probability>
+		</background>
+		<background>
+			<url>CPRParty.swf</url>
+			<probability>25</probability>
+		</background>
+		<background>
+			<url>CPRPlay.swf</url>
+			<probability>25</probability>
+		</background>
+
+
+
+        
+		<!-- party startscreens -->
+        
+		<!--<background>
+			<url>pre-adventure19.swf</url>
+			<probability>0</probability>
+		</background>
+		<background>
+			<url>main-adventure19.swf</url>
+			<probability>100</probability>
+		</background>
+		<background>
+			<url>loginstartscreenpuffle.swf</url>
+			<probability>0</probability>
+		</background>
+        
+		<background>
+			<url>adventure_explore.swf</url>
+			<probability>20</probability>
+		</background>
+		<background>
+			<url>adventure_shipwreck.swf</url>
+			<probability>20</probability>
+		</background>
+		<background>
+			<url>adventure_teamcaptain.swf</url>
+			<probability>40</probability>
+		</background>	
+		<background>
+			<url>adventure_teampirate.swf</url>
+			<probability>40</probability>
+		</background>-->				
+		
+		<!-- /constant rotation -->		
+		
+
+		<!-- external linking content -->		
+				
+		
+		<!-- /external linking content -->
+		
+	</backgrounds>
+	
+	<messages>
+		<message>
+			<title>CHECK OUT WHATS NEW!</title>
+			<icon>whats_new.swf</icon>
+			<content type='url'>https://community.cprewritten.net/</content>
+		</message>
+	</messages>
+
+</startscreen>

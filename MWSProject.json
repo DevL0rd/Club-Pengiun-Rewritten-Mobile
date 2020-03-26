@@ -1,0 +1,65 @@
+{
+	"Name": "Club-Pengiun-Rewritten-Mobile",
+	"Author": "",
+	"IP": "0.0.0.0",
+	"PORT": 80,
+	"timeout": 5000,
+	"maxHeadersCount": 20,
+	"maxPostSizeMB": 8,
+	"maxUrlLength": 2048,
+	"directoryIndex": [
+		"index.html"
+	],
+	"webRoot": "../Club-Pengiun-Rewritten-Mobile/www",
+	"pluginsPath": "../Club-Pengiun-Rewritten-Mobile/Plugins",
+	"upload": {
+		"enabled": true,
+		"limitMB": 0
+	},
+	"throttling": {
+		"videoBitRateKB": 51000,
+		"audioBitRateKB": 230,
+		"applicationDownloadThrottleMB": 15
+	},
+	"defaultHeaders": {
+		"Cache-Control": "max-age=0",
+		"X-Frame-Options": "",
+		"X-XSS-Protection": "1; mode=block",
+		"X-Content-Type-Options": "nosniff"
+	},
+	"security": {
+		"hotlinkProtection": {
+			"enabled": false,
+			"domains": [
+				"localhost"
+			],
+			"allowedExtensions": [
+				"htm",
+				"html"
+			]
+		},
+		"blockedPaths": [],
+		"blockedFiles": [],
+		"blockedFileNames": [],
+		"blockedFileExtensions": []
+	},
+	"logging": {
+		"enabled": true,
+		"directory": "../Club-Pengiun-Rewritten-Mobile/Logs",
+		"consoleLoggingEnabled": false,
+		"errorLoggingEnabled": true,
+		"printConsole": true,
+		"printErrors": true,
+		"consoleNamespacePrintFilter": [
+			"HTTP"
+		],
+		"errorNamespacePrintFilter": []
+	},
+	"clustering": {
+		"workerPORT": 8080,
+		"enabled": false,
+		"clusteredFileSync": false,
+		"workerPassword": "$2a$08$W6BOvQ01LphSpjvHqH7tfurWhIEPVG.Xt8IC/wAiLqbeT.HSTn.8S"
+	},
+	"projectPath": "../Club-Pengiun-Rewritten-Mobile"
+}
